@@ -1,6 +1,6 @@
 def sort_string(st: str) -> str:
     """
-    Sorts the characters in a string in alphabetical/Unicode order.
+    Sorts the characters in a string in alphabetical order.
 
     The function converts the string to a list of characters, sorts them
     in ascending order , and then joins them back into a string.
@@ -18,3 +18,4 @@ def sort_string(st: str) -> str:
 
 text = input("Enter a text: ")
 print(sort_string(text))
+
